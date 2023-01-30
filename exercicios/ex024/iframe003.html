@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    iframe#tela {
+        width: 95vw;
+        height: 400px;
+        border: 2px solid black;
+
+    }
+    nav {
+    background-color: cadetblue ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px #00000024;
+}
+
+    nav > a {
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: .5s;
+    }
+
+    nav > a:hover {
+        background-color: var(--cor3);
+        color: var(--cor5);
+    }
+
+</style>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem assumenda voluptatum harum perspiciatis neque provident ad inventore unde voluptate. Numquam eum nisi praesentium maxime pariatur, libero velit id dolore.</p>
+
+    
+        <nav>
+            <a href="pag-extra/welcome.html" target="frame">Página principal</a>
+            <a href="pag-extra/pag001.html" target="frame">Primeira página</a>
+            <a href="pag-extra/pag002.html" target="frame">Segunda página</a>
+            <a href="pag-extra/pag003.html" target="frame">Terceira página</a>
+        </nav>
+   
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam iste minima at incidunt qui velit assumenda expedita, nostrum labore magnam illo eius dignissimos nobis possimus, obcaecati dolore culpa sint delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, animi! Ipsum ipsam, sunt culpa dolor, earum quis explicabo eum repellat distinctio id voluptatibus magni veniam maiores ad libero voluptatum ut!</p>
+
+    <iframe id="tela" name="frame"  src="pag-extra/welcome.html" frameborder="0"></iframe>
+    <p>Infelizmente o seu navagador não é compativel</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores, veritatis accusantium esse ut consequatur ipsa fugiat corrupti, ea doloribus itaque quisquam? Nam suscipit porro pariatur explicabo architecto, quia ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab laboriosam magni aut beatae, voluptas ipsa similique, totam architecto autem minus cumque deserunt quos a corporis unde, pariatur repellendus iure?</p>
+</body>
+</html>

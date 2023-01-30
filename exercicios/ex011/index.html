@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do navegaror.
+        <picture>
+            <source media="(max-width: 750px)" srcset="Imagens/foto_p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="Imagens/foto_m.png" type="image/png">
+        <img src="Imagens/foto_g.png" alt="Imagem fléxivel">
+        </picture>
+    </p>
+    <h1>Reproduzindo Audio:</h1>
+    <p>Vamos reproduzir audio em html5..</p>
+    <!--  <audio src="midia/Nothing Else Matters (Remastered).mp3" controls autoplay></audio>   -->
+    <!-- MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Nothing Else Matters (Remastered).mp3" type="audio/mpeg">
+        <source src="midia/Nothing Else Matters (Remastered).ogg" type="audio/ogg">
+        <source src="midia/Nothing Else Matters (Remastered).wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir áudio. 
+        <br>Clique<a href="midia/Nothing Else Matters (Remastered).mp3">Aqui</a> para fazer o Download.
+        </p>
+    </audio>
+</body>
+</html>

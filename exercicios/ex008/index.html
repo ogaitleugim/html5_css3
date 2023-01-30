@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Algumas tags</title>
+    <style>
+        body{
+            color: aqua;
+            background-color: 
+            black;
+            
+        }
+        mark {
+            color: aliceblue;
+            background-color: purple; /*Uma maneira de mudar a cor da tag <mark>,como padrão assume cor amarela */
+
+        }
+    </style>
+</head>
+<body> 
+
+    <h1>Algumas tags :</h1>
+
+    <h2>Negrito e Itálico</h2>
+
+
+    <p> - Normal</p>
+    <p> - <em>Itálico</em> </p>  <!-- Tag <em> ( enfâse(Itálico) )       obs. : com fecho de tag -->
+    <p> - <strong>Negrito</strong></p><!--Tag <strong> ( Dar força ao texto(Negrito) )       obs. : com fecho de tag -->
+    <p><strong><em> - Combinação entre negrito e itálico</em></strong></p> <!-- Obs. : Combinação entre Tags-->
+
+    <h2>Texto Marcado</h2>
+
+    <p><mark>Texto marcado de Amarelo como maneira de destaque</mark></p>
+    <br>
+    <p><mark style="background-color: green;">Texto marcado aplicando como parâmetro de CSS(style) como maneira de destaque</mark></p>
+<!-- Nota: 2nd parágrafo na tag mark, é aplicado um estilo como parâmetro associado , algo parecido com a combinação de tags-->
+<!--Maneira interessante de aplicar estilo com CSS , existem 3 sendo que só estão aqui demonstradas 2.-->
+
+<h2>Texto grande e pequeno:</h2>
+
+<p> - Ao criar texto com letras <small>"um pouco mais pequenas"</small></p>
+
+<h2>Texto eliminado</h2>
+
+<p><pre>    <!--            <pre>  = =  formatação de texto                            obgs. : tem fecho de tag     -->
+    - Podemos marcar um <del>texto como excluído</del> para indicar que
+        ele deve ser lido, mas não considerado.
+    </pre></p>
+
+<h2>Texto inserido</h2>
+
+<p><pre>
+    - Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que    <!--Texto sublinhado-->
+        ele foi adicionado depois.(sublinhado)
+</pre></p>
+<h2>Texto Sobrescrito</h2>
+
+<p>Para inserir coisas tipo x<sup>20</sup>+3</p> <!--sup == cima-->
+
+<h2>Texto Subscrito</h2>
+
+<p>Para inserir coisas tipo h<sub>2</sub>O</p>  <!--sub == baixo-->
+
+</body>
+</html>
