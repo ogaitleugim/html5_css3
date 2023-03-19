@@ -7,11 +7,13 @@
     padding: 0px;
 }
 body, html {
-    background-color:#594A63;
+    background-color: #594A63;
 }
 
 header {
-    background-color: #594A63;
+   background-color: #594A63;
+   background-image: url(../imagem/4193733.jpg);
+   background-size: cover; 
 }
 
 header > h1 {
